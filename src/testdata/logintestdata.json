@@ -1,0 +1,9 @@
+
+{
+            "testCase": "Valid Login",
+            "username": "validUser",
+            "password": "validPassword",
+            "url": "https://nswpe-sandbox.pegacloud.io/prweb/app/default/Cc0BJSdJ6OdBNUpuWBJD7zYCxcJRCjpn*/!STANDARD",
+            "expectedResult": "Login Successful"
+        }
+    
