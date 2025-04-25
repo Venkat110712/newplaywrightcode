@@ -28,6 +28,10 @@ test('Complete Business Details Form', async ({ page }) => {
     // Step 9: Click "No" for "Do you clean any premises before and /or during their operating/business hours?"
     await page.click('button:has-text("No")');
 
+    // Step 9: Click "No" for "Do you clean any premises before and /or during their operating/business hours?"
+    await page.click('button:has-text("Yes")');
+
+
     // Step 10: Click "No" for "Does the business clean at shopping centres, supermarkets, shopping villages, shopping arcades, hospitals, refineries, railway stations or airports?"
     await page.click('button:has-text("No")');
 
